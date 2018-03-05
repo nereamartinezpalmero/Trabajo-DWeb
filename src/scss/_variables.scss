@@ -1,0 +1,48 @@
+// Font families
+$main-font-family: 'Zilla Slab', serif;
+$title-font-family: 'Bree Serif', serif;
+$title2-font-family: 'Lobster', cursive;
+$body-font-family: $main-font-family;
+
+// Font sizes
+$font-size-base: 15px;
+$font-size-small: $font-size-base - 3px;
+$font-size-large: $font-size-base + 5px;
+$font-size-h1: $font-size-base + 15px;
+$font-size-h2: $font-size-base + 12px;
+$font-size-h3: $font-size-base + 9px;
+$font-size-h4: $font-size-base + 6px;
+$font-size-h5: $font-size-base + 3px;
+$font-size-h7: $font-size-base + 40px;
+$font-size-h8: $font-size-base + 15px;
+$font-size-h6: $font-size-base;
+
+// Base colors
+$color-amazing-39: #F8695B;
+$color-grastur: #17434E;
+$color-sidonia-orange: rgba(253, 170, 16, 0.692);
+$color-less-is-less: #f8f5ee;
+$color-silver: #DBDBDB;
+$color-marron: rgba(46, 35, 27, 0.856);
+$color-verde: rgba(153, 209, 81, 0.856);
+$color-salmon: rgba(235, 168, 204, 0.856);
+$color-granate: rgb(46, 35, 27);
+
+// Main components colors
+$main-text-color: $color-grastur;
+$links-color: $color-amazing-39;
+
+// Responsive
+// 667 iphone landscape. 768 ipad portrait
+$mobile-portrait-width: 500px;
+$mobile-landscape-width: 767px;
+$tablet-portrait-width: $mobile-landscape-width + 1;
+$tablet-landscape-width: 1024px;
+
+// Forms variables
+$form-input-border-color: $color-marron;
+$form-input-outline-color: $color-grastur;
+$form-button-background-color: $color-amazing-39;
+$form-button-font-color: $color-less-is-less;
+$form-error-background-color: $color-amazing-39;
+$form-error-font-color: $color-amazing-39;

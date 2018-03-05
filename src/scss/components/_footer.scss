@@ -1,0 +1,34 @@
+.web-footer {
+    box-sizing: border-box;
+    background: fade-out($color-marron, 0.15);//;
+    color: $color-amazing-39;
+    padding: 35px;
+    text-align: center;
+    width: 100%;
+    font-family: $title2-font-family;
+
+
+    bottom: 0px;
+
+
+    &:hover {
+        background: $color-granate;
+    }
+
+    .web-title {
+       font-weight: bold;
+       text-transform: uppercase;
+       font-size: $font-size-large;
+    }
+
+    a {
+        color: $color-amazing-39;
+        text-decoration: none;
+        padding-right: 15px;
+    }
+}
+
+.web-footer-fixed { 
+    @extend .web-footer;
+
+}

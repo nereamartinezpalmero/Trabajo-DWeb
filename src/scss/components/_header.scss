@@ -1,0 +1,80 @@
+.web-header {
+
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    background: fade-out($color-marron, 0.15);//;
+    color: $color-amazing-39;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+
+   
+
+    &:hover {
+        background: $color-granate;
+    }
+
+
+
+    .web-title {
+        @include if-desktop {
+        display: flex;
+        width: 56%;
+       align-items: center;
+       text-align: center;
+       font-weight: bold;
+       text-transform: uppercase;
+       font-size: $font-size-h7;
+       font-family: 'Lobster', cursive;
+        }
+        @include if-mobile {
+        display: flex;
+        width: 50%;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: $font-size-h8;
+        font-family: 'Lobster', cursive; 
+        }
+        @include if-tablet {
+        display: flex;
+        width: 56%;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: $font-size-h7;
+        font-family: 'Lobster', cursive; 
+        }
+        @include if-mobile-landscape {
+        display: flex;
+        width: 56%;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: $font-size-h7;
+        font-family: 'Lobster', cursive; 
+            }
+       
+    }
+
+    .form-search {
+        display: flex;
+        align-items: center;
+        .busquedas {
+           width: 150px;
+           margin-left: 15px;
+           margin-top: 10px;
+           padding: 5px;
+           background-color: $color-amazing-39;
+        }
+
+        a{
+           color: $color-amazing-39;
+        }
+    }
+}
+
